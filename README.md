@@ -1,5 +1,4 @@
-# ge-v2
-GoodEntry v2 contracts 
+# Rensho
 
 ## Tests with Foundry
 
