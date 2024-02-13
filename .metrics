@@ -1,0 +1,123 @@
+{
+    "files": {
+        "contracts\\ammpositions\\algebra19position.sol": {
+            "block_positions": [],
+            "comments": 515,
+            "language": "Solidity",
+            "mccabe": 1,
+            "ratio_comment_to_code": 11.44,
+            "sloc": 45
+        },
+        "contracts\\ammpositions\\ammpositionbase.sol": {
+            "block_positions": [],
+            "comments": 513,
+            "language": "Solidity",
+            "mccabe": 2,
+            "ratio_comment_to_code": 17.1,
+            "sloc": 30
+        },
+        "contracts\\ammpositions\\uniswapv2position.sol": {
+            "block_positions": [],
+            "comments": 288,
+            "language": "Solidity",
+            "mccabe": 3,
+            "ratio_comment_to_code": 7.58,
+            "sloc": 38
+        },
+        "contracts\\ammpositions\\uniswapv3position.sol": {
+            "block_positions": [],
+            "comments": 910,
+            "language": "Solidity",
+            "mccabe": 8,
+            "ratio_comment_to_code": 7.17,
+            "sloc": 127
+        },
+        "contracts\\commons.sol": {
+            "block_positions": [],
+            "comments": 130,
+            "language": "Solidity",
+            "mccabe": 0,
+            "ratio_comment_to_code": 16.25,
+            "sloc": 8
+        },
+        "contracts\\controller.sol": {
+            "block_positions": [
+                {
+                    "end": 143,
+                    "name": "keccak256",
+                    "start": 24,
+                    "type": "Function"
+                }
+            ],
+            "comments": 1417,
+            "language": "Solidity",
+            "mccabe": 0,
+            "ratio_comment_to_code": 13.24,
+            "sloc": 107
+        },
+        "contracts\\oracle\\dumboracle.sol": {
+            "block_positions": [],
+            "comments": 54,
+            "language": "Solidity",
+            "mccabe": 0,
+            "ratio_comment_to_code": 2.7,
+            "sloc": 20
+        },
+        "contracts\\oracle\\oracle.sol": {
+            "block_positions": [],
+            "comments": 2222,
+            "language": "Solidity",
+            "mccabe": 10,
+            "ratio_comment_to_code": 16.1,
+            "sloc": 138
+        },
+        "contracts\\positionmanager\\positionmanager.sol": {
+            "block_positions": [],
+            "comments": 4460,
+            "language": "Solidity",
+            "mccabe": 35,
+            "ratio_comment_to_code": 15.87,
+            "sloc": 281
+        },
+        "contracts\\positionmanager\\strikemanager.sol": {
+            "block_positions": [],
+            "comments": 597,
+            "language": "Solidity",
+            "mccabe": 6,
+            "ratio_comment_to_code": 18.66,
+            "sloc": 32
+        },
+        "contracts\\referrals\\referrals.sol": {
+            "block_positions": [],
+            "comments": 708,
+            "language": "Solidity",
+            "mccabe": 9,
+            "ratio_comment_to_code": 7.87,
+            "sloc": 90
+        },
+        "contracts\\vaults\\feestreamer.sol": {
+            "block_positions": [],
+            "comments": 540,
+            "language": "Solidity",
+            "mccabe": 3,
+            "ratio_comment_to_code": 28.42,
+            "sloc": 19
+        },
+        "contracts\\vaults\\vaultbase.sol": {
+            "block_positions": [],
+            "comments": 2308,
+            "language": "Solidity",
+            "mccabe": 23,
+            "ratio_comment_to_code": 10.99,
+            "sloc": 210
+        },
+        "contracts\\vaults\\vaultconfigurator.sol": {
+            "block_positions": [],
+            "comments": 775,
+            "language": "Solidity",
+            "mccabe": 0,
+            "ratio_comment_to_code": 21.53,
+            "sloc": 36
+        }
+    }
+}
