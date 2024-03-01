@@ -76,7 +76,7 @@ contract DeployScript is Script {
   
   // Deploy Referrals
   function update_referrals() internal {
-    Referrals referrals = new Referrals();
+    referrals = new Referrals();
     controller.updateReferrals(address(referrals));
   }
   
@@ -85,7 +85,7 @@ contract DeployScript is Script {
   function deploy_simple() internal {
     referrals = new Referrals();
     positionManager = new PositionManager();
-    oracle = deployOracle(); // proxy to oracle
+    deployOracle(); // proxy to oracle
     
     controller = new Controller(address(oracle), Addresses.WETH, address(referrals), TREASURY, address(positionManager));
     
@@ -95,7 +95,7 @@ contract DeployScript is Script {
     
     
       
-  function deployOracle() internal returns (Oracle oracle) {
+  function deployOracle() internal {
     address[] memory assets0 = new address[](0);
     address[] memory assets = new address[](1);
     assets[0] = Addresses.WETH;
